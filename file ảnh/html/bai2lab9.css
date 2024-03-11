@@ -1,0 +1,37 @@
+label{
+    font-variant: small-caps;
+}
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form_text input{
+    width:100%;
+    margin: 10px 0 ;
+}
+.form_nationality select{
+    width:100%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.form_ghi input{
+    width:100%;
+}
+.form_ghi textarea{
+    width:100%;
+}
+.form_gt{
+    margin-bottom: 10px;
+}
+.form_image input{
+    margin-bottom: 10px;
+}
+.hobby{
+    margin-bottom: 10px;
+}
+.form_ghi{
+    margin-bottom: 10px;
+}
+.form_last{
+    margin-top: 10px;
+}

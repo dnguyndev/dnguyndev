@@ -1,0 +1,209 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 18px 8px;
+}
+
+.menu ul li {
+    margin-left: 8px;
+    font-variant: small-caps;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+
+
+}
+
+.menu img {
+    width: 138px;
+    height: 80px;
+    margin: 0 20px;
+}
+
+.menu .booking {
+    border-radius: 4px;
+    border: 2px solid orange;
+    padding: 9px 23px;
+    margin-right: 100px;
+}
+
+.menu .booking a {
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+
+.menu ul li a:hover,
+.menu ul li a:active {
+    color: red;
+}
+
+.take_text {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.take_care h3 {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 30px;
+    color: green;
+    padding-top: 60px;
+}
+
+.take_img {
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.textt {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.textt input {
+    width: 600px;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(228, 228, 228);
+}
+
+.textt-style {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.textt label {
+    padding-bottom: 10px;
+    color: rgb(0, 105, 0);
+    font-weight: 500;
+}
+
+.give button {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+.give button:hover {
+    color: red;
+}
+
+.give button:active {
+    background-color: rgb(228, 227, 227);
+    color: black;
+}
+
+.mn ul li {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+
+}
+
+.container_menu {
+    border: 1px solid rgb(180, 179, 179);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    margin-right: 300px;
+    margin-top: 55px;
+    border-radius: 3px;
+}
+
+.mn {
+    text-align: center;
+    padding: 0 10px
+}
+
+.mn ul {
+    background-color: green;
+    border-radius: 5px;
+}
+
+.textt textarea {
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    font-size: 16px;
+}
+
+.mn ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mn ul li a:hover {
+    color: red;
+}
+
+.ft_block img {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 600px;
+}
+
+.footer_list {
+    text-align: center;
+}
+
+.footer_list li {
+    list-style: none;
+    font-variant: small-caps;
+    font-size: 18px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer_list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_list li a:hover {
+    color: rgb(125, 234, 125);
+}
+
+.block_img {
+    height: 350px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/close-up-shot-taxi-sign-warm-colours-sunset-with-bokeh-lights-background_181624-54985.jpg?w=996&t=st=1706790938~exp=1706791538~hmac=24e5f9b4639e922a3bdd44772a342ae3acd874add3f0e81beebb4acb1f8d3aed);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -400px;
+    margin-top: 30px;
+}
+
+.ft_block {
+    margin-bottom: 20px;
+}

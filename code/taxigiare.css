@@ -1,0 +1,441 @@
+body{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin : 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth ;
+}
+.banner_image_flt img{
+    width: 1519.2px;
+}
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color : white;
+    padding : 18px 8px;
+}
+.menu ul li{
+    margin-left : 8px;
+    font-variant: small-caps;
+    display:inline-block;
+    margin-right: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:green;
+}
+.menu img{
+    width : 138px;
+    height:80px;
+    margin: 0 20px;
+}
+.menu .booking{
+    border-radius: 4px ;
+    border : 2px solid orange;
+    padding : 9px 23px;
+    margin-right:100px;
+}
+.menu .booking a{
+    text-decoration: none;
+    color : white;
+    font-variant: small-caps;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.menu ul li a:active{
+    color:red;
+}
+.text{
+    text-align: center;
+    padding : 20px 0;
+    font-size: 20px;
+}
+.photo{
+    width : 50%;
+    margin-left:120px;
+}
+.text-1{
+    width : 50%;
+    float:right;
+    margin-top: -300px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-left: 300px;
+}
+.actile-content{
+    margin-bottom:20px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-image: url();
+}
+.content{
+    margin-bottom: 80px;
+}
+.dichvu{
+    width:33%;
+    float:left;
+}
+.sp{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+    margin-left:60px;
+}
+.picture img{
+    width:360px;
+    height:237px; 
+}
+.picture img:hover{
+    transform: scale(1.1);
+}
+.ten{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+.two{
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 28x;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.two .number{
+    color: red;
+}
+.two .name{
+    color :green;
+}
+.because{
+    box-shadow: 0 0 5px gray ;
+    border-radius: 6px;
+    width: 18%;
+    text-align: center;
+    float : left;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    padding: 20px 20px;
+}
+.why-text{
+    text-transform:capitalize;
+    font-size: 16px;
+    margin-top:10px;
+    font-weight: 400px;
+
+}
+.chon{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 25px;
+   
+}
+.why-image img{
+    width: 170px;
+    height:170px;
+    margin-top:10px;
+}
+.why-always-me{
+    margin-left:30px;
+    margin-top:80px;
+}
+.chon h3{
+    margin-top:200px;
+}
+.because:hover {
+   background-color :rgb(54, 193, 54);
+}
+.pay-money{
+    text-transform:capitalize;
+    font-size: 20px;
+    color:green;
+    
+}
+.pay-title h1{
+    font-variant: small-caps;
+    text-align: center;
+    margin: 50px 0px;
+}
+.pay-money{ 
+    width:50%;
+}
+.pay-text{
+    width:50%; 
+}
+.pay-2 img{
+   float:right;
+}
+.pay-1{
+    margin-left:40px;
+}
+
+.pay-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pay-image img{
+    width:450px ;
+    height:300px;
+    margin: 30px 10px;
+    position: relative;
+}
+.pay-text ul li{
+    line-height: 40px;
+    font-size: 18px;
+}
+.pay-1 p{
+    font-size: 20px;
+}
+.pay-2 img{
+    width : 420px;
+    height:420px;
+    margin-right:140px;
+    margin-bottom:5px;
+    
+}
+.pay-text p{
+    font-variant: small-caps;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+.pay-box p{
+    font-variant: small-caps;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+.pay-text img{
+    width:600px;
+    height:450px;
+    margin: 0 50px;
+    border-radius: 7px;
+}
+.pay-11{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pay-box img{
+    width:650px;
+    height: 450px;
+    margin: 0 50px;
+    border-radius: 7px;
+}
+/* .pay-box img:hover{
+    border: 8px solid green;
+    transition: 0.2s all ease-in-out;
+    position: relative;
+} */
+/* .pay-text img:hover{
+    border: 8px solid green;
+    transition: 0.2s all ease-in-out;
+    position: relative;
+} */
+.pay-money h3{
+    margin-left: 50px;
+    position: relative;
+}
+.pay-image img:hover{
+    border: 5px solid green;
+    transition: 0.2s all ease-in-out;
+}
+.take_text{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.take_care h3{
+   text-align: center;
+   font-variant: small-caps;
+   font-size: 30px;
+   color:green;
+   padding-top: 60px;
+}
+.take_img{
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-weight: 600; 
+}
+.textt{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top:40px;
+}
+.textt input{
+    width:600px;
+    height: 20px;
+    padding:10px;
+    font-size:16px;
+    background-color: rgb(228, 228, 228);
+}
+.textt-style {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.textt label{
+   padding-bottom: 10px;
+   color:rgb(0, 105, 0);
+   font-weight: 500;
+}
+.give button{
+    width:100px;
+    height:50px;
+    background-color: rgb(41, 167, 41);
+    color: white;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+.give button:hover{
+    color:red;
+}
+.give button:active{
+    background-color: rgb(228, 227, 227);
+    color:black;
+}
+
+.mn ul li{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    color:white;
+    padding: 10px 10px;
+    
+}
+.container_menu{
+    border: 1px solid rgb(180, 179, 179);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float:right;
+    margin-right: 300px;
+    margin-top: 55px;
+    border-radius: 3px;
+}
+.mn{
+    text-align: center;
+    padding: 0 10px
+}
+.mn ul{
+    background-color: green;
+    border-radius: 5px;
+}
+.mn ul li a:hover{
+    color:red;
+}
+.mn ul li a{
+    text-decoration: none;
+    color:white;
+}
+.contact_text h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact_title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.contact_title a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.contact_container{
+    width: 40%;
+    float:right;
+    height:400px;
+    margin-right: 90px;
+}
+.contact_list ul li{
+    list-style: none;
+    font-size: 20px;
+    color: green;
+    line-height: 60px;
+}
+.contact_list ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    line-height: 60px;
+    color: green;
+}
+.contact_book a{
+    text-transform: capitalize;
+    color:black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    background: rgb(35, 188, 35);
+    border-radius: 13px;
+    width: 225px;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 270px;
+}
+.contact_list ul li img{
+    width:30px;
+    height: 20px;
+    padding-right: 15px ;
+}
+.contact_book img{
+    width: 90px;
+    height:50px;
+    padding-right: 10px;
+}
+
+.ft_block img{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 600px;
+}
+.footer_list{
+    text-align:center ;
+}
+.footer_list li{
+    list-style: none;
+    font-variant: small-caps;
+    font-size: 18px;
+    display: inline;
+    margin-right: 20px;  
+}
+.footer_list li a{
+    text-decoration: none;
+    color:white;  
+}
+.footer_list li a:hover{
+    color:rgb(125, 234, 125);
+}
+.block_img{
+    height:350px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/close-up-shot-taxi-sign-warm-colours-sunset-with-bokeh-lights-background_181624-54985.jpg?w=996&t=st=1706790938~exp=1706791538~hmac=24e5f9b4639e922a3bdd44772a342ae3acd874add3f0e81beebb4acb1f8d3aed);
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size: cover; 
+    background-position-y: -400px;
+    margin-top: 30px;
+}
+.ft_block{
+    margin-bottom: 20px;
+}
+.contact_map iframe{
+    margin-left: 130px;
+    border-radius: 8px;
+} 
+
