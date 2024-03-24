@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#003c71;
+}
+.container img{
+    width :130px;
+    height: 100px;;
+}
+.container ul li{
+    display: inline;  
+}
+.container ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding:35px 30px;
+}
+ .container ul li a.active  {
+    color:#75b7f0;
+    border-bottom: 5px solid #fdbf65;
+    
+}
+.container ul li a:hover{
+    color:#75b7f0;
+}
+.text h1{
+    text-transform: uppercase;
+    position: relative;
+    left:40px;
+    color:white;
+    margin: 0;
+    top:10px
+}
+.text p , .text h3{
+    line-height: 40px;
+    color:white;
+    margin-left: 20px;
+    padding-top:20px ;
+  
+}
+ .box{
+    background-image: url(../images/nenf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:630px;
+    background-position-y:center;
+ }
+.images img{
+    width:200px;
+    height:160px;
+}
+.images {  
+    margin-top:35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.footer ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color:white;
+    padding:60px;
+
+}
+.footer ul li a:hover{
+    color:#75b7f0;
+}
+.footer img{
+    position: relative;
+    left: 660px;
+}
+.footer p{
+    margin-top:40px;
+    font-weight: 600;
+    color:white;
+}
+.background{
+    background-color:#2b5982;
+    height:320px
+}
+.info_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_social a{
+    margin-top: 20px;
+    padding-right:10px;
+}

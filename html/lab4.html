@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #BCE2C9;
+            margin: 0;
+        }
+
+        header {
+            padding: 10px;
+            text-align: center;
+            background: white;
+            color: #36B87D;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #36b87d;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #36b87d;
+            color: white;
+
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .side {
+            flex-basis: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .main {
+            flex-basis: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .newimg {
+            background-color: #BCE2C9;
+            Width: 100%;
+            padding: 20px;
+        }
+
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+            margin-top: 10px;
+        }
+
+        @media screen and (max-width:600px) {
+
+            .container,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>This is my first webpage</h1>
+            <p>Knowledge - Experience - FAQ</p>
+            <p>Using <b>Flexible</b> layout.</p>
+        </div>
+    </header>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Technology</a>
+        <a href="#">Science</a>
+        <a href="#">Life</a>
+    </div>
+    <div class="container">
+        <div class="side">
+            <h2>Introduce</h2>
+            <div class="fakeimg" style="height:200px"></div>
+            
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptate sint enim assumenda commodi
+                consequatur asperiores aliquid harum, eaque minus adipisci corrupti rem temporibus expedita ipsam, quas
+                facilis! Non, natus.</p>
+            <h3>Technology</h3>
+            <div class="fakeimg" style="height:60px">image</div><br>
+            <div class="fakeimg" style="height:60px">image</div><br>
+            <div class="fakeimg" style="height:60px">image</div>
+            <h3>Follow me</h3>
+            <p>Facebook</p>
+            <p>Youtube</p>
+        </div>
+        <div class="main">
+<h2>Form CSS</h2>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate repellendus quidem consectetur
+                nostrum facilis, enim aspernatur, vero distinctio perspiciatis explicabo soluta deserunt asperiores
+                laborum officia! Culpa molestias aut ad labore!</h5>
+            <div class="newimg" style="height:200px"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa fugiat quo et aliquam aspernatur culpa
+                debitis incidunt temporibus, possimus odio inventore molestias dolorem accusamus porro hic quod vitae
+                nemo!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil dolor illo fugit deserunt
+                repudiandae officiis veritatis. Illo nemo consequatur odio minus est iste excepturi, optio dignissimos
+                aliquam culpa reprehenderit?
+                Quas, quaerat, laborum omnis voluptas, optio repudiandae debitis veniam atque dolor quibusdam illo? Non
+                commodi cumque porro expedita, saepe similique nemo totam vitae voluptate laboriosam dicta quis sapiente
+                optio dignissimos.
+                Consequatur facilis aliquid dolore iure, explicabo voluptatem. Quia quisquam a animi modi distinctio
+                obcaecati tenetur laudantium aut, quam porro fugiat maxime nisi laborum maiores, similique labore eum
+                laboriosam. Ratione, reprehenderit.</p><br>
+            <h2>Attribute Selector in CSS</h2>
+            <h5>Lorem ispum dolor sit amet</h5>
+            <div class="newimg" style="height:200px;"></div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta molestiae repellat ex eos repellendus
+                quasi reiciendis officia totam natus. Officiis, minima perferendis facere aperiam excepturi molestiae
+                voluptates quidem quo assumenda.
+                Illo itaque nesciunt voluptatem, asperiores et sunt vero mollitia sint veritatis ea dolorum dolor eum
+                molestiae deleniti necessitatibus similique libero perferendis sapiente, officia ratione esse repellat
+                vitae a dignissimos! Voluptate?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta sunt laudantium temporibus voluptate quod
+                ipsa quis nobis culpa magni explicabo repellendus earum quas non, aperiam consequatur vitae excepturi
+                atque. Nulla.
+                Molestias illum id ipsum voluptate iste tenetur aliquid, consectetur beatae, delectus nemo ab
+                repudiandae suscipit autem reiciendis totam odio et numquam, explicabo voluptatum! Reprehenderit fugiat
+                perspiciatis quo illum vel voluptates!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <hr>
+        <h4>@Copyright by Author</h4>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+</head>
+
+<body>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>KẾT NỐI </h2>
+
+            </div>
+            <hr>
+            <div class="modal-body">
+                <p>Bạn có muốn kết nối với chúng tôi </p>
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <button class="buttom_huy">Hủy</button>
+                <button class="button_call">Gọi Điện</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- kjs -->
+    <div id="yModal" class="modalkk">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>KẾT NỐI </h2>
+
+            </div>
+            <hr>
+            <div class="modal-body">
+                <p>Bạn có muốn kết nối với chúng tôi </p>
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <button class="buttom_huy">Hủy</button>
+                <button class="button_call">Gửi Email</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- ahjhad -->
+
+    <div class="container" style="background-color: #f7aa05;">
+        <div class="container_logo">
+            <img src="../IMAGES/logo.png" alt="">
+        </div>
+        <div class="container_contact">
+            <div class="container_phone">
+                <a href="#" id="myBtn">
+                    <p style="margin: 0;">0123456789</p>
+                </a>
+                <a href="" id="myBtn"><img src="../IMAGES/call.png" alt=""></a>
+            </div>
+            <div class="container_eamil">
+                <a href="#" id="yBtn">
+                    <p style="margin: 0;">contact@gmail.com</p>
+                </a>
+                <a href="" id="yBtn"><img src="../IMAGES/email.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html" class="active">trang chủ</a></li>
+            <li><a href="about.html">giới thiệu</a></li>
+            <li><a href="contact.html">liên hệ</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <img src="../IMAGES/banner-6.webp" alt="">
+    </div>
+    <div class="about_us">
+        <div class="about">
+            <div class="about_us_content">
+                <p>về chúng tôi </p>
+                <div class="underline"></div>
+                <h3>NGUYENDEV</h3>
+            </div>
+            <div class="contentt">
+                <p>Cung cấp máy bay phun thuốc giá tốt nhất thị trường
+                    Chuyên cung cấp các giải pháp và dịch vụ cho ngành nông nghiệp. Nhờ mang đến những sản phẩm chất
+                    lượng, hỗ trợ tận tâm, NguyenDev đã được nhiều khách hàng tin tưởng lựa chọn sử dụng dịch vụ.
+                    Song song đó, NguyenDev cũng không ngừng phát triển và cải tiến để đáp ứng tốt nhất nhu cầu của
+                    người dùng.</p>
+            </div>
+        </div>
+        <div class="about_us_img">
+            <img src="../IMAGES/banner9.png" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logo_footer">
+            <img src="../IMAGES/logo.png" alt="">
+        </div>
+        <div class="menu_footer" style="padding:10px 0 ;">
+            <ul>
+                <li><a href="index.html">trang chủ</a></li>
+                <li><a href="">giới thiệu</a></li>
+                <li><a href="">liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="icon-footer">
+            <a href="https://www.facebook.com/profile.php?id=100038789551925"><img
+                    src="../IMAGES/facebook_5968764-removebg-preview.png" alt=""></a>
+            <a href="https://zalo.me/s/qrwallet"><img src="../IMAGES/zalo.png" alt=""></a>
+            <a href="https://mail.google.com/mail/u/0/?pli=1#inbox"><img src="../IMAGES/Email-removebg-preview.png"
+                    alt=""></a>
+            <a href=""><img src="../IMAGES/app1-removebg-preview.png" alt=""></a>
+        </div>
+    </div>
+    <div class="last_footer">
+        <p>Designed & Developer by NguyenDev 2024</p>
+    </div>
+
+
+    <script>
+
+        let modal = document.getElementById("myModal");
+        let modalY = document.getElementById("yModal");
+    
+        // Get the buttons that open the modals
+        var btn = document.getElementById("myBtn");
+        var btnY = document.getElementById("yBtn");
+    
+        // Get the <span> elements that close the modals
+        var span = modal.getElementsByClassName("close")[0];
+        var spanY = modalY.getElementsByClassName("close")[0];
+    
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+    
+        btnY.onclick = function () {
+            modalY.style.display = "block";
+        }
+    
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    
+        spanY.onclick = function () {
+            modalY.style.display = "none";
+        }
+    
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (event.target == modalY) {
+                modalY.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

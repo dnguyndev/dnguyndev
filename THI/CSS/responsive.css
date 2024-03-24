@@ -1,0 +1,484 @@
+@media screen and (min-width:280px) {
+    body{
+        font-size: 12px;
+    }
+    .container_logo img {
+        width: 98px;
+        height: 84px;
+    }
+    .menu ul li {  
+        padding: 5px 0px;
+    }
+    .menu ul li a{
+        padding:10px;
+    }
+    .about_us_content p{
+        margin-top: 10px;
+    }
+    .menu ul, .menu_footer ul{
+        padding: 0;
+    }
+    .banner img{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .menu ul li a.active {
+        border-bottom: 3px solid #3f9f48;
+    }
+    .about_us{
+        flex-wrap: wrap;
+        margin: 0;
+        padding-right: 10px;
+    }
+    .about,.about_us_img{
+        width: 90%;
+        padding: 0;
+    }
+    .about_us_img img{
+        padding:0;
+    }
+    .container_phone ,.container_email{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .content {
+        right: 0px;
+        position: relative;
+        
+        width: 80%;
+    }
+    .listPart ul{
+        padding: 0;
+    }
+    .data_content{
+        width: 100%;
+        padding:0 5px
+    }
+    .data_content img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+    }
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+    .wrapWidthVideo {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .formTtin, .quickContact {
+        padding: 10px 14px;
+    }
+    .btnType_1 {
+        width: 50%;
+        padding: 10px;
+       
+        position: relative;
+        left: 60px;
+        margin: 10px 0;
+    }
+    .formTtin{
+        width: 100%;
+       
+    }    
+    input, textarea {
+        padding: 15px 5px ;
+    }
+    .contact-tilte h1::after {
+        content: '';
+        width: 70%;
+       
+        position: absolute;
+        bottom: 356px;
+        left:16px;
+    }
+    .contact-tilte h1{
+        font-size: 18px;
+    }
+    .contact_map iframe{
+        margin-top: 6px ;
+        width: 100%;
+    }
+    button{
+        position: relative;
+        left:0;
+        width: 100%;
+    } 
+    .model-content{
+        width: 100%;
+    }  
+
+  
+}
+@media screen and(min-width:320px) {
+    .contact-tilte h1::after {
+        content: '';
+        width: 70%;
+        position: absolute;
+        bottom: 348px;
+        left: 12px;
+    }
+}
+@media screen and (min-width:360px) {
+    .menu ul li {
+        padding:5px 18px;
+    }
+    .menu ul li a {
+        padding: 6px;
+    }
+    body{
+        font-size: 14px;
+    }
+    .contact-tilte h1::after {
+        content: '';
+        width: 61%;
+        position: absolute;
+        bottom: 439px;
+        left: 9px;
+    }
+    .data_content {
+         width: 100%;
+        }
+        .btnType_1 {
+            width: 63%;
+        }
+        .menu ul li {
+            padding: 5px 7px;
+        }
+        .menu ul li a{
+            padding:8px;
+        }
+        input , textarea{
+            width: 330px;
+        }
+        .menu_footer ul li {
+            list-style: none;
+            padding: 10px 24px;
+        }.menu_footer ul li {
+            list-style: none;
+            padding: 10px 24px;
+        }
+        .wrapWidthVideo iframe{
+            width: 100%;
+            height: 300px
+        }
+
+    }
+    @media screen and (min-width:375px) {
+        .data_content{
+            width: 100%;
+        }
+        .container_logo img {
+            width: 120px;
+            height: 114px;
+        }
+        .contact-tilte h1::after {
+            content: '';
+            width: 61%;
+            position: absolute;
+            bottom: 367px;
+            left: 14px;
+        }
+        
+    }
+    @media screen and (min-width:390px) {
+        .contact-tilte h1::after {
+            content: '';
+            width: 61%;
+            position: absolute;
+            bottom: 542px;
+            left: 10px;
+        }
+        .model-content{
+            width: 100%;
+        } 
+    }
+    @media screen and (min-width:414px) {
+        body{
+            font-size: 16px;
+        }
+        .about_us{
+            width: 100%;
+        }
+        .contentt, .about_us_img{
+            width: 100%;
+        }
+        .about{
+            height: auto;
+        }
+        .data_content{
+            width: 100%;
+        }
+        iframe{
+            width: 100%;
+            height:300px;
+        }
+        input , textarea{
+            width: 380px;
+        }
+        .contact-tilte h1::after {
+            content: '';
+            width: 61%;
+            position: absolute;
+            bottom: 443px;
+            left: 10px;
+        }
+    }
+    @media screen and (min-width:412px){
+        .contact_map iframe{
+            height:300px;
+        }
+        .contact-tilte h1::after {
+            content: '';
+            width: 61%;
+            position: absolute;
+            bottom: 461px;
+            left: 13px;
+        }
+        input , textarea{
+            width: 380px;
+        }
+    }
+    @media screen and (min-width:430px) {
+        .contact-tilte h1::after {
+            content: '';
+            width: 55%;
+            position: absolute;
+            bottom: 478px;
+            left: 16px ;
+        }
+
+    }
+    @media screen and (min-width:540px) {
+        input, textarea {
+            width: 495px;
+        }
+        .btnType_1 {
+           
+            position: relative;
+            left: 82px;
+            
+        }
+    }
+    @media screen and (min-width:768px) {
+        .menu ul li a {
+            padding: 10px;
+        }
+        input , textarea {
+            width: 700px;
+        }
+        .btnType_1 {
+            padding: 10px;
+            position: relative;
+            left: 135px;
+            margin: 10px 0;
+        }
+        .contact-tilte h1::after {
+            content: '';
+            width: 40%;
+            position: absolute;
+            bottom: 560px;
+            left: 16px;
+        }
+        .contact-tilte h1 {
+            font-size: 23px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .listPart ul {
+            padding: 10px;
+        }
+        .row {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        button{
+            width: auto;
+            position: relative;
+            left: 500px;
+        }
+        .modal-content{
+            width: 90%;
+        }
+    }
+    @media screen and (min-width:820px) {
+        .contact-tilte h1::after {
+            content: '';
+            width: 40%;
+            position: absolute;
+            bottom: 715px;
+            left: 13px;
+        }
+        button{
+            width: auto;
+            position: relative;
+            left: 450px;
+        }
+    }
+    @media screen and (min-width:853px) {
+        .contact_map iframe{
+            height:386px;
+        }
+        input , textarea{
+            width: 800px;
+        }
+        .formTtin, .quickContact {
+            padding: 12px 20px;
+        }
+        .contact-tilte h1::after {
+            content: '';
+            width: 35%;
+            position: absolute;
+            bottom: 712px;
+            left: 20px;
+        }
+    }
+    @media screen and (min-width:912px) {
+        .data_content img {
+            width: 800px;
+            height: 480px;
+            position: relative;
+            left: 52px;
+        }
+        .data_content{
+            padding: 0 15px;
+        }
+        .wrapWidthVideo iframe {
+            width: 800px;
+            height: 470px;
+            position: relative;
+            left:57px
+        }
+        .contact-tilte h1::after {
+            content: '';
+            width: 31%;
+            position: absolute;
+            bottom: 900px;
+            left: 13px;
+        }
+        .quickContact {
+            padding: 10px 23px;
+        }
+        input, textarea {
+            width: 852px;
+        }
+        button{
+            width: auto;
+            position: relative;
+            left: 550px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        body{
+            font-size: 16px;
+        }
+        .about_us{
+            flex-wrap: nowrap;
+            padding:0 10px;
+        }
+        .data_content img{
+           width: 700px;
+           height:400px;
+           position: relative;
+           left:150px;
+        }
+        .data_content{
+            padding:0 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+        .formTtin{
+            width: 55%;
+        }
+        input ,textarea{
+            width: 500px;
+        }
+        .btnType_1 {
+            
+            position: relative;
+            left: 90px;
+          
+        }
+        .contact-tilte h1::after {
+            content: '';
+            width: 30%;
+            position: absolute;
+            bottom: 890px;
+            left: 13px;
+        }
+        .container_logo img {
+            width: 145px;
+            height: 134px;
+        }
+        button{
+            width: auto;
+            position: relative;
+            left: 290px;
+        }
+        .modal-content{
+            width: 50%;
+        }
+
+    }
+    @media screen and (min-width:1280px) {
+        .about{
+            position: relative;
+            top:-100px;
+        }
+        .about_us{
+            padding:15px 10px;
+        }
+        .data_content img {
+            width: 920px;
+            height: 500px;
+            position: relative;
+            left: 150px;
+        }
+        .wrapWidthVideo iframe {
+            width: 1000px;
+            height: 500px;
+            position: relative;
+            left: 130px;
+        }
+        button{
+            width: auto;
+            position: relative;
+            left: 400px;
+        }
+        .modal-content{
+            width: 50%;
+        }
+    }
+    @media screen and (min-width:1300px) {
+        .about {
+            position: relative;
+            top: -142px;
+        }
+        button{
+            width: auto;
+            position: relative;
+            left: 500px;
+        }
+        .modal-content{
+            width: 50%;
+        }
+    }

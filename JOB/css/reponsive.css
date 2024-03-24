@@ -1,0 +1,559 @@
+@media screen and (max-width:280px) {
+    .mySlides img {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .prev {
+        position: absolute;
+        top: 140px;
+    }
+
+    .next {
+        position: absolute;
+        top: 140px;
+    }
+
+    .dot,
+    .dot :active {
+        visibility: hidden;
+
+    }
+
+    .button-click {
+        margin: 0;
+    }
+
+    .about-us {
+        padding: 0 10px;
+    }
+
+    .money,
+    .col-inner,
+    .list,
+    .section-medium,
+    .row,
+    .icon-box,
+    .section-relative,
+    .list {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .money_text {
+        width: 100%;
+    }
+
+    .unbox {
+        width: 100%;
+    }
+
+    #table{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .money_text a {
+        font-size: 14px;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .photo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image img,
+    .column img {
+        width: 100%;
+    }
+
+    .column,
+    .col {
+        width: 100%;
+    }
+
+    .col h4 {
+        font-size: 12px;
+    }
+
+    .col {
+        margin: 0;
+    }
+
+    .tilte hr,
+    .service hr {
+        width: 0;
+    }
+
+    .icon {
+        width: 100%;
+    }
+
+    .section-paragrap {
+        width: 100%;
+    }
+
+    form {
+        width: 240px;
+    }
+
+    .section-col-inner {
+        width: 100%;
+        margin: 0;
+    }
+
+    .list.section-medium {
+        width: 100%;
+    }
+
+    .section-paragrap p {
+        position: relative;
+        top: 0;
+        left: 14px;
+    }
+
+    .icon-img {
+        position: relative;
+        top: -100px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .about h3 {
+        margin-top: 15px;
+    }
+
+    .quick-alo-ph-img-circle {
+        width: 30px;
+        height: 30px;
+        top: 61px;
+        left: 61px;
+        position: absolute;
+    }
+
+    .quick-alo-ph-circle-fill {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quick-alo-phone {
+        position: fixed;
+        left: 170px;
+    }
+
+}
+@media screen and (max-width:360px){
+    .mySlides img{
+        height:300px;
+    }
+    .icon img{
+        position: relative;
+        top:-60px;
+    }
+    .about{
+        padding: 0 10px;
+    }
+    .prev{
+        position:absolute;
+        top:80px;
+    }
+    .next{
+        position:absolute;
+        top:80px;
+    }
+    .section-col-inner{
+        padding: 0 10px;
+    }
+    .money,.col-inner,.list,.row,.icon-box,.section-relative,.section-medium{
+        flex-wrap:wrap ;
+        padding: 0 10px;
+    }
+    .money_text{
+        width: 100%;
+    }
+    .table-border{
+        width: 340px;
+        
+    }
+    .table-border th ,.table-border,.list,.section-medium{
+        padding:7px 0px;
+    }
+    .photo,.icon{
+        width: 100%;
+    }
+    .photo img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about h3{
+        margin-top: 20px;
+    }
+    .tilte hr , .service hr{
+        width: 40px;
+    }
+    .image img ,.column img{
+        width: 100%;
+        height:auto;
+    }
+    .col,.column{
+        width: 100%;
+    }
+    .col{
+        margin: 0;
+    }
+    .icon-img {
+        position: relative;
+        top: -79px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .section-paragrap p {
+        position: relative;
+        top: 0;
+        left: 14px;
+    }
+    .section-paragrap{
+        width: 100%;
+    }
+    .quick-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        top: 60px;
+        left: 60px;
+        position: absolute;
+    }
+
+    .quick-alo-ph-circle-fill {
+        width: 60px;
+        height: 60px;
+    }
+
+    .quick-alo-phone {
+        position: fixed;
+        left: 240px;
+    }
+
+}
+@media screen and (min-width:375px) {
+    .mySlides img{
+        height: 350px;
+    }
+    .icon img{
+        position: relative;
+        top:-60px;
+    }
+    .about{
+        padding: 0 10px;
+    }
+    .section-col-inner{
+        padding: 0 10px;
+    }
+    .money,.col-inner,.list,.row,.icon-box,.section-relative,.section-medium{
+        flex-wrap:wrap;
+        padding: 0 10px;
+    }
+    .photo,.icon,.col,.column{
+        width: 100%;
+    }
+    .photo img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .money_text{
+        width: 100%;
+    }
+    #table{
+        width: 360px;
+    }
+    .image img ,.column img{
+        width: 100%;
+        height:auto;
+    }
+    .tilte hr , .service hr{
+        width: 40px;
+    }
+    .section-paragrap p {
+        position: relative;
+        top: 0;
+        left: 14px;
+    }
+    .section-paragrap{
+        width: 100%;
+    }
+    .quick-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        top: 60px;
+        left: 60px;
+        position: absolute;
+    }
+
+    .quick-alo-ph-circle-fill {
+        width: 60px;
+        height: 60px;
+    }
+
+    .quick-alo-phone {
+        position: fixed;
+        left: 240px;
+    }
+}
+@media screen and (min-width:390px) {
+    .quick-alo-phone {
+        position: fixed;
+        left: 268px;
+    }
+}
+@media screen and (min-width:412px) {
+    .quick-alo-ph-img-circle {
+        width: 40px;
+        height: 40px;
+        top: 60px;
+        left: 60px;
+        position: absolute;
+    }
+    .icon img{
+        position: relative;
+        top:-60px;
+    }
+    .icon-img {
+        position: relative;
+        top: -69px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .about{
+        padding: 0 10px;
+    }
+    .quick-alo-ph-circle-fill {
+        width: 60px;
+        height: 60px;
+    }
+    #table{
+        width:390px;
+    }
+    .quick-alo-phone {
+        position: fixed;
+        left: 280px;
+    } 
+    .next{
+        position: absolute;
+    top: 61px; 
+    }
+    .prev{
+        position: absolute;
+    top: 65px ;
+    }
+    .about h3{
+        margin-top: 20px;
+    }
+    .section-bg{
+        background-position-x: -500px;
+    }
+}
+@media screen and (min-width: 430px) {
+    .quick-alo-phone {
+        position: fixed;
+        left: 308px;
+    } 
+}
+@media screen and (min-width:540px) {
+    #table{
+        width: 500px;
+    }
+    .dot ,.dot :active{
+        visibility: hidden;
+    }
+    .quick-alo-phone {
+        position: fixed;
+        left: 420px;
+    }
+    .icon img{
+        position: relative;
+        top:-60px;
+    }
+    .icon-img{
+        position: relative;
+        top:10px;
+    }
+}
+@media screen and (min-width:768px) {
+    .money,
+    .col-inner,
+    .list,
+    .section-medium,
+    .row,
+    .icon-box,
+    .section-relative,
+    .list {
+        flex-wrap: nowrap;
+        padding: 0 10px;
+    }
+    .photo img{
+        height: auto;
+    }
+    .column{
+        width: 30%;
+    }
+    .section-paragrap{
+        width: 70%;
+    }
+    .section-paragrap p {
+        position: relative;
+        top: -205px;
+        left: 14px;
+    }
+    .quick-alo-phone {
+        position: fixed;
+        left: 630px;
+    } 
+}
+@media screen and (min-width:820px) {
+    .mySlides img {
+        height: 500px 
+    }
+    .next{
+        position: absolute;
+    top: -10px ;
+    }
+    .prev{
+        position: absolute;
+    top: -10px ;
+    }
+    .photo img {
+        width: 100%;
+        margin-top: -50px 
+    }
+    .tilte hr, .service hr {
+        width: 250px;
+    }
+    .quick-alo-phone {
+        position: fixed;
+        left: 680px;
+    }
+}
+@media screen and (min-width:853px) {
+    .quick-alo-phone {
+        position: fixed;
+        left: 680px;
+    }
+    .about h3{
+        margin-top: 80px;
+    }
+    .tilte hr, .service hr {
+        width: 132px;
+    }
+    .quick-alo-ph-img-circle {
+        width: 80px;
+        height: 80px;
+        top: 60px;
+        left: 60px;
+        position: absolute;
+    }
+    .quick-alo-ph-circle-fill {
+        width: 100px;
+        height: 100px;
+    }
+    .dot ,.dot :active{
+        visibility: hidden;
+    }
+    .text_container::after{
+        content:" taxi chính hãng tiền giang taxi giá rẻ ";
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: white;
+    }
+    
+}
+@media screen and (min-width:912px) {
+    .photo img {
+        width: 100%;
+        margin-top: -20px;
+    }
+    .dot :active,.dot{
+        visibility: hidden;
+    }
+    .about h3{
+        margin-top: 80px;
+    }
+    .quick-alo-phone {
+        position: fixed;
+        left: 750px;
+    }
+    .quick-alo-ph-img-circle {
+        width: 80px;
+        height: 80px;
+        top: 60px;
+        left: 60px;
+        position: absolute;
+    }
+    .quick-alo-ph-circle-fill {
+        width: 100px;
+        height: 100px;
+    }
+    #table{
+        width:100%;
+    }
+    .column p ,.column h4{
+        word-break:break-all;
+    }
+    .text_container::after{
+        content:" taxi chính hãng tiền giang taxi giá rẻ ";
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: white;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    .photo img {
+        margin-top: 5px;
+    }
+   .section-paragrap{
+    width: 50%;
+   }
+   .column p{
+    word-break: break-all;
+   }
+   .section-bg{
+    background-position-x: -200px;
+   }
+   .quick-alo-phone {
+    position: fixed;
+    left: 850px;
+}
+.quick-alo-ph-img-circle {
+    width: 80px;
+    height: 80px;
+    top: 60px;
+    left: 60px;
+    position: absolute;
+}
+.quick-alo-ph-circle-fill {
+    width: 100px;
+    height: 100px;
+}
+#table{
+    width:100%;
+}
+
+}
+@media screen and (min-width:1280px) {
+    .quick-alo-phone {
+        position: fixed;
+        left: 1100px;
+    }
+    
+}
+@media screen and (min-width:1300px) {
+    .quick-alo-phone {
+        position: fixed;
+        left: 1336px;}
+}

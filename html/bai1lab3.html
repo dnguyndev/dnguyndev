@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body p{
+           text-align: center;
+           
+        }
+        .header,.footer,.nav_bar,.section1,.section2,.section3{
+            background-color: gainsboro;
+            padding : 10px 20px;
+            border: 2px solid lightgray;
+            border-radius: 5px;
+             
+        }
+        .nav_bar{
+            margin: 10px 0px;
+        }
+        .acticle{ 
+            display: flex;
+        }
+        .section1 , .section3{
+            flex-grow: 1;
+        }
+        .section2{
+            flex-grow: 3;
+        }
+        .section1 , .section2 , .section3 {
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            padding: 50px;    
+            margin: 5px 5px ; 
+        }
+        .footer{
+            margin: 10px 0px;
+        }
+        @media screen and (max-width:768px) {
+            .acticle{
+                display: block;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header"><p>header</p></div>
+    <div class="nav_bar"><p>Thanh điều hướng</p> </div>
+    <div class="acticle">
+        <div class="section1"> <p>nội dung </p></div>
+        <div class="section2"><p> nội dung chính</p> </div>
+        <div class="section3"><p>nội dung </p></div>
+    </div>
+    <div class="footer"><p>footer</p></div>
+</body>
+</html>

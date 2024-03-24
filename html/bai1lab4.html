@@ -4,59 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .doansao1{
-            color : red ;
-        }
-        .doansao2{
-            color : blue ;
-        }
-        .doansao3{
-            color : green ;
-        }
-        strong{
-            color : brown;
-        }
-        em{
-            font-variant : small-caps;
-            font-size : 20px;
-            word-spacing : 2px;
-            letter-spacing : 2px;
-            line-height : 25px;
-
-        }
-        h1{
-            color : white;
-            text-shadow: 0 0 5px red ;
-        }
-        body{
-            text-align: center;
-        }
-    </style>
+    <Style>
+        .container{
+        display: grid;
+        gap : 10px;
+        grid-template-columns: auto auto auto;
+        background-color: #BCE2C9;
+    }
+    .container div{
+        background-color: #36B87D;
+        text-align: center;
+        padding:20px 30px;
+    }
+    .item1{
+        grid-area:1/1/2/3;
+    }
+    .item2{
+        grid-area:1/3/3/4;
+    }
+    .item5{
+        grid-area:3/1/4/4;
+    }
+    </Style>
 </head>
 <body>
-    <h1>SAO</h1>
-    <p>
-        <em class = " doansao1 ">
-        Một ngôi <strong>sao</strong> vừa rơi<br>
-        Vụt tắt trên bầu trời<br>
-        Hay là tên người ấy<br>
-        Vụt tắt ở trong tôi?<br>
-        </em>
-    </p>
-    <br>
-    <em class ="doansao2">
-        Vẫn thấy trên bầu trời<br>
-        Có muôn vàn <strong>sao</strong> sáng<br>
-        Mà ở trong lòng tôi<br>
-        Như một hành lang vắng<br>
-    </em>
-    <br>
-    <em class = "doansao3">
-        Một ngôi <strong>sao</strong> vừa tắt<br>
-        Bầu trời vẫn không buồn<br>
-        <strong>Sao</strong> tên người ấy tắt<br>
-        Trong lòng tôi cô đơn?<br>
-    </em>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+    </div>
 </body>
 </html>

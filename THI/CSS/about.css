@@ -1,0 +1,210 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   height:60px;
+}
+.container_logo img{
+    width: 144px;
+    height: 100px;
+    
+}
+.banner img{
+    width: 100%;
+}
+.container_phone ,.container_eamil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_phone a ,.container_eamil a{
+    text-decoration: none;
+    color:white; 
+    
+}
+.container_phone img , .container_eamil img{
+    padding-left: 10px;
+    width: 20px;
+    height: 22px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    padding: 15px 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding:15px;
+    font-weight: 500;
+}
+.menu{
+    background-color: white;
+}
+.menu ul li a:hover{
+    background-color:rgb(255, 191, 73);
+    color:white;
+    border-bottom: 3px solid #3f9f48;
+    transition: 1s;
+
+}
+.menu ul li a.active{
+    background-color:rgb(255, 191, 73);
+    color:white;
+    border-bottom: 3px solid #3f9f48;
+
+}
+.breadcrumbsBlock {
+    background-color: #f9f7f7;
+    padding: 30px 0 20px 0;
+    margin-bottom: 20px;
+}
+.containerr {
+    max-width: 1300px;
+    text-align:center;
+    margin: auto;
+}
+.breadcrumbsBlock .namePage {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+.breadcrumbsBlock .breadcrumbFix {
+    background-color: transparent;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0;}
+    .breadcrumbsBlock .breadcrumbFix .breadcrumb-item {
+        font-size: 14px;
+        display: inline;
+        color: #ffffff;
+    }
+    .breadcrumbsBlock .breadcrumbFix .breadcrumb-item a {
+        color: #000000;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .breadcrumbsBlock .breadcrumbFix .breadcrumb-item+.breadcrumb-item::before {
+        color: #000000;
+        content: "\f105";
+        font-family: 'Font Awesome 6 Free';
+        float: unset;
+        font-weight: 900;
+        padding: 5px;
+    }
+    .breadcrumbsBlock .breadcrumbFix .breadcrumb-item.active {
+        color: #000000;
+        font-weight: 700;
+    }
+.data_content,.content {
+    max-width: 1300px;
+    margin: auto;
+}
+.data_content p ,.data_content h2{
+    text-align: justify;
+}
+.data_content li{
+    padding:10px 5px;
+}
+.tilte h3{
+    font-size: 24px;
+    color:rgb(247, 170, 5);
+
+}
+
+.content{
+        right:240px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 50%;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.2);
+}
+.data_content img ,.wrapWidthVideo{
+    width: 800px;
+    height: 450px;
+    position: relative;
+    left:280px;
+}
+.listPart ul li ,.listPart ol li {
+    list-style: none;
+    padding:10px 3px;
+    
+}
+.listPart a ,.listPart ul li{
+    color:#295fcc;
+    text-decoration: none;
+}
+.listPart a:hover{
+    color: #3f9f48;
+    border-bottom: 2px solid #3f9f48 ;
+    transition:  0.5s;
+}
+.data_content h2{
+    color:#3f9f48;
+}
+.data_content h3{
+    color:rgb(247, 170, 5);
+}
+.footer{
+    text-align: center;
+    background-color: rgb(255, 186, 57);
+
+}
+.logo_footer{
+    height: 90px;
+}
+.logo_footer img{
+    width: 150px;
+    height: 130px;
+}
+.menu_footer ul li{
+    list-style: none;
+    padding : 10px 25px; 
+}
+.menu_footer ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black
+}
+.menu_footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.icon-footer img{
+    width: 40px;
+    height: 36px;
+    padding: 0 10px;
+}
+.last_footer{
+    text-align: center  ;
+    color: aliceblue;
+    background-color: black;    
+}
+.last_footer p{
+    margin: 0;
+    padding: 20px;
+}

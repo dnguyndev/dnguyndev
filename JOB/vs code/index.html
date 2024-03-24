@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taxi</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text_container">
+            <img src="../images/logo.png" alt="" style="width: 104px; height: 80px;">
+            <h3></h3>
+        </div>
+        <a href="">
+            <p>ĐẶT XE NGAY </p>
+        </a>
+    </div>
+    <!-- call -->
+    <div class="quick-alo-phone quick-alo-green quick-alo-show" id="quick-alo-phoneIcon" style="right: 0px; top: 76%;">
+        <a href="tel:099999" title="Liên hệ nhanh">
+            <div class="quick-alo-ph-circle-fill"></div>
+            <div class="quick-alo-ph-img-circle"></div>
+        </a>
+    </div>
+
+    <!-- call -->
+    <!-- js -->
+    <script>
+        var _0x6868=["\x63\x6C\x69\x65\x6E\x74\x58","\x6F\x66\x66\x73\x65\x74\x4C\x65\x66\x74","\x63\x6C\x69\x65\x6E\x74\x59","\x6F\x66\x66\x73\x65\x74\x54\x6F\x70","\x73\x65\x74\x43\x61\x70\x74\x75\x72\x65","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E","\x2E\x71\x75\x69\x63\x6B\x2D\x61\x6C\x6F\x2D\x70\x68\x6F\x6E\x65","\x6F\x6E\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65","\x65\x76\x65\x6E\x74","\x70\x78","\x63\x73\x73","\x72\x65\x6C\x65\x61\x73\x65\x43\x61\x70\x74\x75\x72\x65","\x63\x61\x6E\x63\x65\x6C\x42\x75\x62\x62\x6C\x65","\x6D\x6F\x75\x73\x65\x75\x70","\x72\x65\x61\x64\x79"];jQuery(document)[_0x6868[14]](function(_0xe7bdx1){var _0xe7bdx2=false;var _0xe7bdx3,_0xe7bdx4;_0xe7bdx1(_0x6868[6])[_0x6868[5]](function(_0xe7bdx5){_0xe7bdx2= true;_0xe7bdx3= _0xe7bdx5[_0x6868[0]]- this[_0x6868[1]];_0xe7bdx4= _0xe7bdx5[_0x6868[2]]- this[_0x6868[3]];this[_0x6868[4]]&& this[_0x6868[4]]();return false});document[_0x6868[7]]= function(_0xe7bdx5){if(_0xe7bdx2){var _0xe7bdx5=_0xe7bdx5|| window[_0x6868[8]];var _0xe7bdx6=_0xe7bdx5[_0x6868[0]]- _0xe7bdx3;var _0xe7bdx7=_0xe7bdx5[_0x6868[2]]- _0xe7bdx4;_0xe7bdx1(_0x6868[6])[_0x6868[10]]({"\x6C\x65\x66\x74":_0xe7bdx6+ _0x6868[9],"\x74\x6F\x70":_0xe7bdx7+ _0x6868[9]});return false}};_0xe7bdx1(document)[_0x6868[13]](function(_0xe7bdx5){_0xe7bdx2= false;_0xe7bdx1(_0x6868[6])[0][_0x6868[11]]();_0xe7bdx5[_0x6868[12]]= true})})
+         </script>
+    <!-- js -->
+    <div class="mySlides fade">
+        <img src="../images/slide3.jpg">
+    </div>
+    <div class="mySlides fade">
+        <img src="../images/slide1.jpg">
+    </div>
+    <div style="position: relative; top:-250px">
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+
+    <div style="text-align:center" class="button-click">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+
+    </div>
+
+    <script>
+   
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <div class="sum">
+        <div class="money">
+            <div class="money_text">
+                <p><strong>Bảng cước giá taxi</strong> </p>
+                <p>Đội ngũ tài xế của chúng tôi đã sẵn sàn phục vụ bạn. Nhấn ” Gọi đặt xe”<br> để chúng tôi đến đón bạn
+                    !</p>
+
+                <table cellspacing="0" class="table-border" id="table" style="transform: none; box-shadow: none;">
+                    <thead class>
+                        <tr style="background-color: #019d3c; text-align: center;color:white">
+                            <th style="box-shadow: none;text-align: center;">LOẠI XE </th>
+                            <th style="box-shadow: none;text-align: center;"> TAXI 4 CHỔ </th>
+                            <th style="box-shadow: none;text-align: center;">TAXI 7 CHỔ </th>
+                        </tr>
+                    </thead>
+
+                    <tbody class>
+                        <tr class>
+                            <td>Taxi 4 chổ </td>
+                            <td>13.000vnđ/ km</td>
+                            <td>11.000vnđ/ km</td>
+                        </tr>
+                        <tr class>
+                            <td>Taxi 7 chổ</td>
+                            <td>15.000vnđ/ km</td>
+                            <td>13.000vnđ/ km</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="color:white">&hahah</p>
+                <a href="">
+                    <span>ĐẶT XE NGAY : 0898 13 63 63</span>
+                </a>
+            </div>
+            <div class="photo">
+                <img src="../images/4 chổ.jpg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about-us">
+        <div class="about">
+            <h3>Taxi Tiền Giang? Khách hàng là trọng tâm phục vụ.</h3>
+            <p>Tự hào 10 năm thành lập, Taxi giá rẻ Tiền Giang luôn luôn có sự phát triển, điều đó có được là nhờ Quý
+                khách
+                hàng đã tin cậy, lựa chọn dịch vụ Taxi 24 Taxi Tiền Giang làm bạn đồng hành cùng Quý khách trên mọi nẻo
+                đường</p>
+            <p>Là một đơn vị đi tiên phong trong lĩnh vực Taxi tại Tiền Giang. Taxi giá rẻ Tiền Giang? chúng tôi luôn
+                mang
+                đến giá thành thấp nhất, chất lượng cao nhất, phù hợp với mọi đối tượng khách hàng.</p>
+        </div>
+        <div class="col-inner">
+            <div class="whl-box">
+                <div class="icon">
+                    <img src="../images/icon1.png" alt="" style="width: 60px; height: 63px;">
+                </div>
+                <div class="content-box">
+                    <h3>Taxi liên tỉnh</h3>
+                    <p>Đội ngũ lái xe chuyên nghiệp, dày dặn kinh nghiệm, vui vẻ, hòa đồng, trang thiết bị tiện nghi,
+                        sang
+                        trọng, phục vụ toàn tỉnh Taxi Tiền Giang.</p>
+                </div>
+            </div>
+            <div class="whl-box">
+                <div class="icon">
+                    <img src="../images/icoon2.png" alt="" style="width:60px; height: 55px;">
+                </div>
+
+                <div class="content-box">
+                    <h3>Đưa đón sân bay </h3>
+                    <p>Xe đưa đón đi sân bay là các dòng 4-7 chỗ, xe chất lượng cao, cam kết đúng giờ không trễ chuyến
+                        bay
+                        của khách hàng.</p>
+                </div>
+            </div>
+        </div>
+        <div class="service" style="max-width: 1000px; margin: auto;">
+            <hr>
+            <span>DỊCH VỤ TAXI GIÁ RẺ </span>
+            <hr>
+        </div>
+    </div>
+    <div class="list-box">
+        <div class="list">
+            <div class="col">
+                <div class="image">
+                    <img src="../images/châu thành.png" alt="">
+                </div>
+                <p>Taxi 4 chổ: 13.000vnđ/ km </p>
+                <p> Taxi 7 chổ: 15.000vnđ/ km</p>
+                <a href="">
+                    <h4>ĐẶT XE NGAY : 0898 13 63 63 </h4>
+                </a>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="../images/châu thành.png" alt="">
+                </div>
+                <p>Taxi 4 chổ: 13.000vnđ/ km </p>
+                <p> Taxi 7 chổ: 15.000vnđ/ km</p>
+                <a href="">
+                    <h4>ĐẶT XE NGAY : 0898 13 63 63 </h4>
+                </a>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="../images/châu thành.png" alt="">
+                </div>
+                <p>Taxi 4 chổ: 13.000vnđ/ km </p>
+                <p> Taxi 7 chổ: 15.000vnđ/ km</p>
+                <a href="">
+                    <h4>ĐẶT XE NGAY : 0898 13 63 63 </h4>
+                </a>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col">
+                <div class="image">
+                    <img src="../images/châu thành.png" alt="">
+                </div>
+                <p>Taxi 4 chổ: 13.000vnđ/ km </p>
+                <p> Taxi 7 chổ: 15.000vnđ/ km</p>
+                <a href="">
+                    <h4>ĐẶT XE NGAY : 0898 13 63 63 </h4>
+                </a>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="../images/châu thành.png" alt="">
+                </div>
+                <p>Taxi 4 chổ: 13.000vnđ/ km </p>
+                <p> Taxi 7 chổ: 15.000vnđ/ km</p>
+                <a href="">
+                    <h4>ĐẶT XE NGAY : 0898 13 63 63 </h4>
+                </a>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="../images/châu thành.png" alt="">
+                </div>
+                <p>Taxi 4 chổ: 13.000vnđ/ km </p>
+                <p> Taxi 7 chổ: 15.000vnđ/ km</p>
+                <a href="">
+                    <h4>ĐẶT XE NGAY : 0898 13 63 63 </h4>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="profile">
+
+        <div class="tilte">
+            <hr>
+            <p>TAXI TIỀN GIANG CUNG CẤP </p>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="column ">
+                <img src="../images/icon4.jpg" alt="">
+                <h4>Thuê xe theo tháng </h4>
+                <p>Dịch vụ cho thuê xe hợp đồng của Taxi Tiền Giang hiện có Dịch Vụ Cho Thuê Xe Ô Tô Có Tài Xế. Dịch vụ
+                    này của của Taxi Tiền Giang đáp ứng được nhu cầu thuê xe dài hạn và ngắn hạn (theo tháng, ngày, giờ)
+            </div>
+            <div class="column">
+                <img src="../images/icon4.jpg" alt="">
+                <h4>Thuê xe du lịch</h4>
+                <p>Quy chuẩn chất lượng rõ ràng, thủ tục đặt xe đơn giản, nhanh chóng
+                    Hình thức thanh toán linh hoạt theo từng cá nhân
+                    Đội ngũ nhân viên hỗ trợ nhanh chóng 24/7/365
+                    Cung cấp TẤT CẢ các loại giấy tờ pháp lý liên quan đến xe cho khách thuê.</p>
+            </div>
+            <div class="column">
+                <img src="../images/icon4.jpg" alt="">
+                <h4>Đưa đón sân bay </h4>
+                <p>Taxi Tiền Giang mã chuyến bay, chúng tôi sẽ tự động cập nhật tất cả thông tin cần thiết (thông tin
+                    cổng vào - ra, giờ khởi hành, cột chờ..) để đảm bảo bạn sẽ có mặt tại sân bay đúng giờ, tiết kiệm
+                    thời gian tìm kiếm cổng vào.</p>
+            </div>
+        </div>
+        <div class="button">
+            <a href="">
+                <span>LIÊN HỆ NGAY </span>
+            </a>
+        </div>
+    </div>
+    <div class="col-media">
+        <div class="media">
+            <div class="why">
+                <div class="icon-box">
+                    <div class="icon">
+                        <div class="icon-img">
+                            <img src="../images/icon1.png" alt="" style="width: 60px;">
+                        </div>
+                        <div class="icon-content">
+                            <h3>Đặt xe dễ dàng</h3>
+                            <p>Đặt xe nhanh chóng chỉ với 1 cuộc gọi, lái xe thông thuộc địa hình khu vực và có nhiều
+                                năm kinh nghiệm trong nghề , chỉ cần nói địa chỉ
+                                tài xế
+                                sẽ
+                                có mặt ngay.</p>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="icon-img">
+                            <img src="../images/icon1.png" alt="" style="width: 60px;">
+                        </div>
+                        <div class="icon-content">
+                            <h3>Đón khách 5 phút </h3>
+                            <p>Có mặt ở khu vực trung tâm và ngoại thành ở các thành phố lớn,Taxi Tiền Giang có số lượng
+                                xe 4-7
+                                chỗ dồi dào để phục vụ bạn mọi lúc</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="icon-box">
+
+                    <div class="icon">
+                        <div class="icon-content1">
+                            <h3>Không lo về giá</h3>
+                            <p>Tuy sử dụng loại xe 4 7 chổ đời mới nhưng Taxi Tiền Giang? vẫn hoạt động trong phân khúc
+                                khách
+                                hàng bình dân, giá rẻ chỉ từ 12.000vnđ/km.</p>
+                        </div>
+                        <div class="icon-img">
+                            <img src="../images/giá.png" alt="" style="width: 60px;">
+                        </div>
+
+                    </div>
+                    <div class="icon">
+                        <div class="icon-content1">
+                            <h3>An toàn & tận tâm </h3>
+                            <p>Đội ngũ lái xe dầy dặn kinh nghiệm, đúng giờ. Nhiệt tình không ngại hẻm sâu hoặc đợi
+                                khách
+                                lâu,
+                                tận tâm phục vụ khách hàng.</p>
+                        </div>
+                        <div class="icon-img">
+                            <img src="../images/baove.jpg" alt="" style="width: 60px;">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-bg" id="hello">
+        <div class="section-content">
+            <div class="section-relative">
+                <div class="section-paragrap">
+                    <p>Thuê xe hợp đồng, xe dịch vụ, dịch vụ xe hoa, đưa đón sân bay… vui lòng gọi trực tiếp Hotlinea <a
+                            href="" style="text-decoration: none;">0898 13 63 63</a> . Hoặc điền vào thông tin bên dưới.
+                        Taxi Tiền Giang rất vui khi được phục vụ quý khách!</p>
+                </div>
+                <div class="section-form">
+                    <form action="">
+                        <label for="">Bạn muốn đi : </label><br>
+                        <input type="text" name="" id="" placeholder="Điểm đi"><br>
+                        <label for="">Bạn muốn đến : </label><br>
+                        <input type="text" name="" id="" placeholder="Điểm đến"><br>
+                        <label for="">Số điện thoại : </label><br>
+                        <input type="number" name="" id=""><br>
+                        <label for="">Thòi gian đi : </label><br>
+                        <input type="date"><br>
+                        <label for="">Date</label><br>
+                        <input type="time"><br>
+                        <label for="">Time</label>
+                        <button>ĐẶT XE </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-medium">
+        <div class="section-col-inner">
+            <h3>Taxi Tiền Giang </h3>
+            <p>Với đội ngũ lái xe tận tâm, có kinh nghiệm lâu năm. Bạn được phục vụ bởi những chiếc xe riêng đời mới với
+                giá thành rẻ, chi phí hợp lý tối đa. Taxi Tiền Giang có phạm vi phục vụ trên khắp tỉnh Tiền Giang.</p>
+        </div>
+        <div class="section-col-inner">
+            <h3>Thông tin liên hệ </h3>
+            <p>Tiền Giang </p>
+            <p> Điện thoại : 0898 13 63 63</p>
+            <p>Website: <a href="">taxigiare@gamil.com</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            Designed and Developer © <Strong>Dnguyndev</Strong> 2024 </p>
+    </div>
+</body>
+
+</html>

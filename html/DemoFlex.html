@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1dc1877525.js" crossorigin="anonymous"></script>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .col {
+            border-radius: 10px;
+            width: 23%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            border: 1px solid lightgray;
+        }
+
+        .col img {
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            filter: grayscale(50%);
+        }
+
+        .col h3 {
+            word-break: break-all;
+        }
+
+        .content_body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content_body h3 {
+            word-break: break-all;
+            flex: 1;
+        }
+
+        .profile {
+            flex-shrink: 0;
+            display: flex;
+        }
+
+        .profile img.user {
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        p {
+            color: gray;
+        }
+
+        .content_footer {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid lightgray;
+            padding: 10px;
+        }
+
+        .col:hover img {
+            filter: grayscale(0%)
+        }
+
+        .content_footer button {
+            padding: 0px 30px;
+            background-color: green;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .content_footer button:hover {
+            color: red;
+        }
+        @media screen and (max-width: 600px) {
+            .container {
+                
+                flex-wrap: wrap;
+            }
+            .col{
+                width: 100%;
+                
+            }
+        }
+      
+       
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col">
+            <img src="../file ảnh/papaya_300x300.jpg" alt="du du " class="banner">
+            <div class="content_body">
+                <h3>
+                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                </h3>
+                <div class="profile">
+                    <img src="../file ảnh/driver.png" alt="" class="user">
+                    <div class="info">
+                        <b>NGUYNDEV <i class="fas fa-check-circle" style="color:#15e7e3"></i></b>
+                        <p>Student</p>
+                    </div>
+                </div>
+                <div class="content_footer">
+                    <button><i class="fas fa-wifi"></i> Live</button>
+                    <p>4.2k watching</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="../file ảnh/papaya_300x300.jpg" alt="du du " class="banner">
+            <div class="content_body">
+                <h3>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate veniam illo officiis reiciendis
+                    quibusdam mollitia quaerat laboriosam distinctio! Excepturi placeat necessitatibus libero quisquam
+                    nostrum adipisci eum tenetur ea tempore assumenda! </h3>
+                <div class="profile">
+                    <img src="../file ảnh/driver.png" alt="" class="user">
+                    <div class="info">
+                        <b>NGUYNDEV <i class="fas fa-check-circle" style="color:#15e7e3"></i></b>
+                        <p>Student</p>
+                    </div>
+                </div>
+                <div class="content_footer">
+                    <button><i class="fas fa-wifi"></i> Live</button>
+                    <p>4.2k watching</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="../file ảnh/papaya_300x300.jpg" alt="du du " class="banner">
+            <div class="content_body">
+                <h3>
+                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                </h3>
+                <div class="profile">
+                    <img src="../file ảnh/driver.png" alt="" class="user">
+                    <div class="info">
+                        <b>NGUYNDEV <i class="fas fa-check-circle" style="color:#15e7e3"></i></b>
+                        <p>Student</p>
+                    </div>
+                </div>
+                <div class="content_footer">
+                    <button><i class="fas fa-wifi"></i> Live</button>
+                    <p>4.2k watching</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="../file ảnh/papaya_300x300.jpg" alt="du du " class="banner">
+            <div class="content_body">
+                <h3>
+                    bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                </h3>
+                <div class="profile">
+                    <img src="../file ảnh/driver.png" alt="" class="user">
+                    <div class="info">
+                        <b>NGUYNDEV <i class="fas fa-check-circle" style="color:#15e7e3"></i></b>
+                        <p>Student</p>
+                    </div>
+                </div>
+                <div class="content_footer">
+                    <button><i class="fas fa-wifi"></i> Live</button>
+                    <p>4.2k watching</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
