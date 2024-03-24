@@ -481,4 +481,9 @@
         .modal-content{
             width: 50%;
         }
+        .btnType_1 {
+            position: relative;
+            left: 36px;
+            width: 50%;
+        }
     }
