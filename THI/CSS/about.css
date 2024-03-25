@@ -104,10 +104,10 @@ body{
     }
     .breadcrumbsBlock .breadcrumbFix .breadcrumb-item+.breadcrumb-item::before {
         color: #000000;
-        content: "\f105";
+        content: ">";
         font-family: 'Font Awesome 6 Free';
         float: unset;
-        font-weight: 900;
+        font-weight:bold;
         padding: 5px;
     }
     .breadcrumbsBlock .breadcrumbFix .breadcrumb-item.active {
