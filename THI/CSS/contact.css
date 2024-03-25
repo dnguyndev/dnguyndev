@@ -32,6 +32,11 @@ body{
     width: 20px;
     height: 22px;
 }
+.menu{
+    position :sticky;
+    top:0;
+    height:33px
+}
 .menu ul{
     display: flex;
     justify-content: flex-start;
